@@ -1,17 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Breweries App</title>
-  </head>
-  <body>
-    <div id="app">
-        <div class="h-screen bg-gray-900 text-white flex items-center justify-center">
-            <h1 class="text-3xl font-bold">Breweries App</h1>
-        </div>
-    </div>
-    <script type="module" src="/src/js/main.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="/vite.svg"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="src/css/style.css"
+		/>
+		<title>Breweries App</title>
+	</head>
+	<body>
+		<div id="app">
+			<div
+				class="h-screen flex flex-col gap-8 bg-slate-800 text-white p-10 border-red-600 border-4"
+			>
+				<nav
+					class="flex justify-between items-center border-gray-800 border-4 p-5"
+				>
+					<h1 class="font-bold text-3xl">Beweries Campoulos</h1>
+					<ul class="flex gap-8 items-center">
+						<li>Home</li>
+						<li>Beweries</li>
+						<li>Story</li>
+						<li>About</li>
+						<li>Contact-us</li>
+					</ul>
+				</nav>
+				<div
+					class="border-blue-700 border-4 p-5 w-full h-full flex justify-evenly items-center"
+				>
+					<div class="w-2/5">
+						<h1 class="text-3xl font-bold">Breweries App</h1>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem,
+							fugiat nostrum blanditiis illo eos eveniet necessitatibus itaque
+							placeat fugit quibusdam aperiam officia. Alias ipsa quo pariatur
+							quasi, provident quos vitae.
+						</p>
+					</div>
+					<div
+						class="w-2/4 bg-[url('/img/beer-drink-lighting.jpg')] h-full bg-no-repeat bg-cover"
+					></div>
+				</div>
+			</div>
+		</div>
+		<script
+			type="module"
+			src="/src/js/main.js"
+		></script>
+	</body>
 </html>
